@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX 3: Greeting App</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>GREETING APP</h1><hr>
+
+
+        <form>
+            <label for="first-name">Enter name</label>
+            <input type="text" class="form-control" name="first-name" id="Fname"><br>
+
+            <h6 id="greeting">Hey there, user!</h6><br>
+
+            <button type="button" class="btn btn-info" onclick="welcome()">Greet</button>
+            <button type="button" class="btn btn-info" onclick="window.location.reload"()>Refresh</button>
+        </form>
+
+        <footer>
+        <div class="footer">
+            <hr><p>&#169; 2025 | ICT 9-TOPAZ | exercise: 3 Function
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        function welcome(nameInput) {
+            var nameInput = document.getElementById('Fname').value;
+
+            document.getElementById('greeting').innerHTML ='Good morning, '+ nameInput +'!';
+        }
+    </script>
+</body>
+</html>
+

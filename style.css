@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/736x/db/95/e7/db95e7b9a6e4c30bbda7a6489018cb30.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+	background-color:#f1c4bb;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+}
+
+.output {
+    margin-top: 20px;
+}
+
+#refreshBtn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#refreshBtn:hover {
+    background-color: #218838;
+}
